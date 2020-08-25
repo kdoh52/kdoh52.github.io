@@ -18,28 +18,44 @@ body {
   color: #333;
 
   /* Visual */
-  background: #aaaad4;
+  background: #5192dd;
 }
 
 header {
   background: #d21034;
 }
 
-h1 {
+#headtext {
   /* Box-model */
-  padding: 20px 0;
+  padding: 28px;
 
   /* Positioning */
   margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
 
   /* Typography */
   color: #eee;
   text-align: center;
 
   /* Visual */
-  background: #333;
+  background: rgb(26, 39, 94);
+  position: relative;
+  top: -27px;
+}
+
+#name {
+  font-size: 28px;
+  margin: 0px;
+}
+#title {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+#logo {
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
@@ -47,29 +63,65 @@ h2 {
 }
 
 a {
-  color: white;
+  color: blue;
 }
 
-.container {
+.heading {
   /* Box-model */
-  width: 1024px;
+  /* width: 1024px; */
+  width: 100%;
+
+  /* Positioning */
+  margin: 0 auto;
+}
+#content {
+  /* Box-model */
+  /* width: 1024px; */
+  width: 85%;
 
   /* Positioning */
   margin: 0 auto;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
+#main-bio, #bio-image {
   float: left;
+}
+#contact-info {
+  float: right;
+}
+#projects {
+  float: left;
+  width: 93%;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  padding-left: 30px;
+  position: relative;
+  top: 30px;
+  left: -100;
+  margin-bottom: 90px;
 }
 
 #main-bio {
-  width: 70%;
+  width: 50%;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
 #contact-info {
-  width: 30%;
+  width: 35%;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#contact-links {
+  list-style-type:none;
+  padding: 0;
 }
 
 #bio-image {
@@ -80,4 +132,7 @@ a {
   /* Positioning */
 
   margin-right: 20px;
+}
+.project-pic {
+  border: 1px solid #555;
 }
