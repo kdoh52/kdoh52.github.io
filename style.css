@@ -89,6 +89,9 @@ a {
 #contact-info {
   float: right;
 }
+/* #intro {
+  width: 93%;
+} */
 #projects {
   float: left;
   width: 93%;
@@ -135,4 +138,26 @@ a {
 }
 .project-pic {
   border: 1px solid #555;
+  width: 30%;
+  height: 30%;
 }
+
+@media only screen and (max-width: 875px) {
+  #main-bio {
+    width: 92%;
+  }
+  #contact-info {
+    float: left;
+    width: 92%;
+    position: relative;
+    top: 30px;
+  }
+  #projects {
+    width: 92%;
+    top: 60px;
+  }
+  .project-pic {
+    width: 50%;
+    height: 50%;
+  }
+} 
