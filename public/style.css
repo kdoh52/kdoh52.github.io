@@ -3,6 +3,10 @@ Each of these CSS elements is associated with an HTML Element, Class, or ID.
 Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
 */
+#nav a {
+  text-decoration: none;
+  color: white;
+}
 
 body {
   /* Box-model */
@@ -19,13 +23,14 @@ body {
 
   /* Visual */
   background: #5192dd;
+  /* background: rgb(189, 189, 189); */
 }
 
 header {
   background: #d21034;
 }
 
-#headtext {
+#headcontainer {
   /* Box-model */
   padding: 28px;
 
@@ -39,7 +44,31 @@ header {
   /* Visual */
   background: rgb(26, 39, 94);
   position: relative;
+  /* position: absolute; */
   top: -27px;
+
+  display: flex;
+}
+
+#nav {
+  /* background-color: pink; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* margin-right: 20px; */
+  margin-left: auto;
+  margin-right: 10px;
+  float: right;
+}
+
+#nav ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+#nav li {
+  display: inline;
+  margin-left: 20px;
+  
 }
 
 #name {
