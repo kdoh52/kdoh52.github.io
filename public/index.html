@@ -5,6 +5,8 @@
 <head>
 
   <meta charset="UTF-8">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
   <title>Kevin Doh | Portfolio</title>
 
   <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
@@ -16,24 +18,11 @@
     <!-- <h1>Kevin Doh</h1> -->
   </header>
 
-  <div class="heading">
-    <img id="logo" src="./images/kdoh-logo.jpg" alt="logo" width="118px" height="118px" style="float:left"><br>
-    <div id="headcontainer">
-      <div id="titles">
-        <h1 id="name">Kevin Doh</h1>
-        <h2 id="title">Web Developer | UI/UX Design</h2>
-      </div>
-      <div id="nav">
-        <ul>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <div id="root"></div>
+  <script src="./bundle.js"></script>
+
   <div id="content">
-    <div id="intro">
+    <!-- <div id="intro">
       <section id="main-bio">
         <h2>About Me</h2>
         <p>Hi, I'm Kevin Doh, a web developer and digital designer. I recently graduated from UC Davis's design program and Trilogy Coding Bootcamp's web development course.</p>
@@ -50,9 +39,9 @@
           <li><strong>Phone: </strong>(408) 960-5481</li>
         </ul>
       </section>
-    </div>
+    </div> -->
 
-    <section id="projects">
+    <!-- <section id="projects">
       <h2>Projects</h2>
       <div id="kuma">
         <h3>Kuma</h3>
@@ -94,7 +83,7 @@
           <li>Repository: <a href="https://github.com/kdoh52/hw-5" target="_blank">https://github.com/kdoh52/hw-5</a></li>
         </ul>
       </div>
-    </section>
+    </section> -->
   </div>
   
 </body>
