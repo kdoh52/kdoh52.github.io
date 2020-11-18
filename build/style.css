@@ -1,0 +1,217 @@
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
+*/
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* Typography */
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+
+  /* Visual */
+  background: #5192dd;
+  /* background: rgb(189, 189, 189); */
+}
+
+header {
+  background: #d21034;
+}
+
+#headcontainer {
+  /* Box-model */
+  padding: 28px;
+
+  /* Positioning */
+  margin: 0;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+
+  /* Visual */
+  background: rgb(26, 39, 94);
+  position: relative;
+  /* position: absolute; */
+  top: -27px;
+
+  display: flex;
+}
+
+#nav {
+  /* background-color: pink; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* margin-right: 20px; */
+  margin-left: auto;
+  margin-right: 10px;
+  float: right;
+}
+
+#nav ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+#nav li {
+  display: inline;
+  margin-left: 20px;
+  
+}
+
+#name {
+  font-size: 28px;
+  margin: 0px;
+}
+#title {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+#logo {
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: blue;
+}
+
+.heading {
+  /* Box-model */
+  /* width: 1024px; */
+  width: 100%;
+
+  /* Positioning */
+  margin: 0 auto;
+}
+#content {
+  /* Box-model */
+  /* width: 1024px; */
+  width: 85%;
+
+  /* Positioning */
+  margin: 0 auto;
+}
+
+#main-bio, #bio-image {
+  float: left;
+}
+#contact-info {
+  float: right;
+}
+/* #intro {
+  width: 93%;
+} */
+#projects {
+  float: left;
+  width: 93%;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  padding-left: 30px;
+  position: relative;
+  top: 30px;
+  left: -100;
+  margin-bottom: 90px;
+}
+
+#main-bio {
+  width: 50%;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#contact-info {
+  width: 35%;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#contact-links {
+  list-style-type:none;
+  padding: 0;
+}
+
+#bio-image {
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+
+  /* Positioning */
+
+  margin-right: 20px;
+}
+.project-pic {
+  border: 1px solid #555;
+  width: 30%;
+  height: 30%;
+}
+
+#footer {
+  /* Box-model */
+  padding: 28px;
+
+  /* Positioning */
+  margin: 0;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+  height: 20px;
+
+  /* Visual */
+  /* background: rgb(26, 39, 94); */
+  /* position: relative; */
+  /* position: absolute; */
+  /* top: -27px; */
+
+  /* display: flex; */
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  */
+}
+
+@media only screen and (max-width: 875px) {
+  #main-bio {
+    width: 92%;
+  }
+  #contact-info {
+    float: left;
+    width: 92%;
+    position: relative;
+    top: 30px;
+  }
+  #projects {
+    width: 92%;
+    top: 60px;
+  }
+  .project-pic {
+    width: 50%;
+    height: 50%;
+  }
+} 
