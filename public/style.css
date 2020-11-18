@@ -171,6 +171,31 @@ a {
   height: 30%;
 }
 
+#footer {
+  /* Box-model */
+  padding: 28px;
+
+  /* Positioning */
+  margin: 0;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+  height: 20px;
+
+  /* Visual */
+  /* background: rgb(26, 39, 94); */
+  /* position: relative; */
+  /* position: absolute; */
+  /* top: -27px; */
+
+  /* display: flex; */
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  */
+}
+
 @media only screen and (max-width: 875px) {
   #main-bio {
     width: 92%;

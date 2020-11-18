@@ -1,10 +1,26 @@
 import React from "react";
+import projects from '../../projects.json';
+import Project from '../../components/Project';
 
 function Home() {
   return (
     <div id="content">
       <section id="projects">
         <h2>Projects</h2>
+
+        {projects.map(item => {
+          return (
+            <Project
+              id={item.id}
+              name={item.name}
+              image={item.image}
+              app={item.app}
+              repo={item.repo}
+            />
+          )
+        })}
+
+        {/* <h2>Projects</h2>
         <div id="kuma">
           <h3>Kuma</h3>
           <img class="project-pic" src="./images/kuma.png" alt="Kuma screenshot" />
@@ -44,7 +60,7 @@ function Home() {
             <li>App: <a href="https://kdoh52.github.io/hw-5/" target="_blank">https://kdoh52.github.io/hw-5/</a></li>
             <li>Repository: <a href="https://github.com/kdoh52/hw-5" target="_blank">https://github.com/kdoh52/hw-5</a></li>
           </ul>
-        </div>
+        </div> */}
       </section>
     </div>
   );

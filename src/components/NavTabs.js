@@ -20,7 +20,7 @@ function NavTabs() {
           <ul>
             <li>
               <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                Home
+                Portfolio
               </Link>
             </li>
             <li>
