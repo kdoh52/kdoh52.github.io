@@ -1,59 +1,26 @@
 [
     {
-        "id": 8,
-        "name": "Employee Directory",
-        "image": "./images/employee-directory.png",
-        "app": "https://kdoh52.github.io/hw-19/",
-        "repo": "https://github.com/kdoh52/hw-19"
-    },
-    {
-        "id": 7,
-        "name": "Budget Tracker",
-        "image": "./images/budgettracker.png",
-        "app": "https://calm-crag-09573.herokuapp.com/",
-        "repo": "https://github.com/kdoh52/hw-18"
-    },
-    {
-        "id": 6,
-        "name": "Fitness Tracker",
-        "image": "./images/fitnesstracker.png",
-        "app": "https://lit-taiga-57650.herokuapp.com/",
-        "repo": "https://github.com/kdoh52/hw-17"
-    },
-    {
-        "id": 5,
-        "name": "Kuma",
-        "image": "./images/kuma.png",
-        "app": "https://secure-ravine-47166.herokuapp.com/",
-        "repo": "https://github.com/kdoh52/Kuma"
-    },
-    {
-        "id": 4,
-        "name": "Eat-Da-Burger!",
-        "image": "./images/eatdaburger.png",
-        "app": "https://stormy-temple-07121.herokuapp.com/",
-        "repo": "https://github.com/kdoh52/hw-13"
-    },
-    {
-        "id": 3,
-        "name": "JourneyOn",
-        "image": "./images/journeyon.png",
-        "app": "https://kdoh52.github.io/project-1/",
-        "repo": "https://github.com/kdoh52/project-1"
+        "id": 1,
+        "title": "The Coder's Corner",
+        "image": "coders-corner.png",
+        "description": "The Coder's Corner is a social media website geared towards helping web developers to network, learn, and collaborate with one another. The site includes a newsfeed, discussion posts, public chat, and built-in code editor.",
+        "appLink": "https://the-coders-corner.herokuapp.com",
+        "repoLink": "https://github.com/joeschlick/the-coders-corner"
     },
     {
         "id": 2,
-        "name": "Weather App",
-        "image": "./images/weather.png",
-        "app": "https://kdoh52.github.io/hw-6/",
-        "repo": "https://github.com/kdoh52/hw-6"
+        "title": "Google Books Search",
+        "image": "google-books.png",
+        "description": "This web application allows a user to search the Google Books API. Results display title, author, description, info links, and an option to save to a collection. This collection can be viewed and edited in a separate tab.",
+        "appLink": "https://afternoon-hamlet-63363.herokuapp.com/",
+        "repoLink": "https://github.com/kdoh52/hw-21"
     },
     {
-        "id": 1,
-        "name": "Planner App",
-        "image": "./images/planner.png",
-        "app": "https://kdoh52.github.io/hw-5/",
-        "repo": "https://github.com/kdoh52/hw-5"
+        "id": 3,
+        "title": "Fitness Tracker",
+        "image": "fitness-tracker.png",
+        "description": "This fitness tracker allows a user to create and save workouts. This data is stored and can be viewed graphically on the dashboard.",
+        "appLink": "https://lit-taiga-57650.herokuapp.com/",
+        "repoLink": "https://github.com/kdoh52/hw-17"
     }
 ]
-  
